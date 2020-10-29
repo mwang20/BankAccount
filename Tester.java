@@ -23,5 +23,6 @@ public class Tester{
     System.out.println(testBank.withdraw(-100)); //Should return false and subtract nothing from the balance
     System.out.println(testBank.getBalance()); //Should return 0.0
     System.out.println();
+    System.out.println(testBank.toString()); //Should return 1200\t0.0
   }
 }
