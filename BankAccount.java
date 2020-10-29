@@ -2,9 +2,9 @@ public class BankAccount{
   private double balance;
   private int accountID;
   private String password;
-  public BankAccount(int accountID, String password){
-    accountID = accountID;
-    password = password;
+  public BankAccount(int accountID1, String password1){
+    accountID = accountID1;
+    password = password1;
     balance = 0;
   }
   public double getBalance(){
