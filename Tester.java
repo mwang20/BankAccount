@@ -25,5 +25,9 @@ public class Tester{
     System.out.println(testBank.getBalance()); //Should return 0.0
     System.out.println();
     System.out.println(testBank.toString()); //Should return 1200\t0.0
+    System.out.println();
+    System.out.println(testBank.authenticate("newpassword")); //Should return true;
+    System.out.println();
+    System.out.println(testBank.authenticate("randompassword")); //Should return false
   }
 }
